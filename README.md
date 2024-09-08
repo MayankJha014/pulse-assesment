@@ -35,9 +35,9 @@ This Node.js application scrapes product reviews from G2.com using Express, Chee
 
 3. **Start Server**
 
-```bash
- npm start
-```
+   ```bash
+    npm start
+   ```
 
 ## API Endpoint
 
