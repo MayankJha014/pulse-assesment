@@ -61,7 +61,7 @@ When calling the API at `https://www.g2.com/search`, `capterra.com`, the server 
 
 ### Temporary Workaround
 
-To address this issue, we have implemented a temporary solution using recursive retry logic with exponential backoff. This approach attempts to re-fetch the data multiple times with 1000ms delays between retries. However, this is a temporary measure and might not be effective in the long term due to potential rate limiting or additional security measures.
+To address this issue, I have implemented a temporary solution using recursive retry logic with exponential backoff. This approach attempts to re-fetch the data multiple times with 1000ms delays between retries. However, this is a temporary measure and might not be effective in the long term due to potential rate limiting or additional security measures.
 
 **Key Details of the Workaround:**
 
