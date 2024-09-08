@@ -47,3 +47,6 @@ This Node.js application scrapes product reviews from G2.com using Express, Chee
    ```
 
 ## Screenshots
+
+![Screenshot 2024-09-08 134054](https://github.com/user-attachments/assets/0db6f100-19f8-4500-ab0f-fab1f89fd0d1)
+![Screenshot 2024-09-08 134253](https://github.com/user-attachments/assets/de02703b-d97d-4a7b-b0a2-fb5685e4b535)
