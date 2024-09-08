@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const { searchG2, reviewOfG2 } = require("./controller/g2");
-const { searchCapterra } = require("./controller/capterra");
+// const { searchCapterra } = require("./controller/capterra");
 
 app.use(express.json());
 app.get("/g2/search", searchG2);

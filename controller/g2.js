@@ -1,32 +1,6 @@
-const { header, formatSearchTerm } = require("../utils");
+const { header, formatSearchTerm, fetchData } = require("../utils");
 const axios = require("axios");
 const cheerio = require("cheerio");
-
-const MAX_RETRIES = 15;
-const RETRY_DELAY = 1000;
-
-const fetchData = async (url, headers, retries = MAX_RETRIES) => {
-  try {
-    const response = await axios.get(url, { headers });
-
-    if (response.status === 200) {
-      return response;
-    }
-
-    if (response.status === 403 && retries > 0) {
-      await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY));
-      return fetchData(url, headers, retries - 1);
-    }
-
-    throw new Error(`Request failed with status code ${response.status}`);
-  } catch (error) {
-    if (retries > 0) {
-      await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY));
-      return fetchData(url, headers, retries - 1);
-    }
-    throw error;
-  }
-};
 
 exports.searchG2 = async (req, res) => {
   try {
