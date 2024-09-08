@@ -6,9 +6,8 @@ This Node.js application scrapes product reviews from G2.com using Express, Chee
 
 ## Project Structure
 
-- `server.js`: Main entry point of the application.
-- `routes/reviews.js`: Contains routes for fetching reviews.
-- `scraper.js`: Contains functions for scraping and parsing data from G2.com.
+- `index.js`: Main entry point of the application.
+- `controller/g2.js`: Contains functions for fetching product and reviews from G2.com.
 
 ## Dependencies
 
