@@ -22,7 +22,7 @@ This Node.js application scrapes product reviews from G2.com using Express, Chee
    Open your terminal and run:
 
    ```bash
-   git clone https://github.com/yourusername/product-review-scraper.git
+   git clone https://github.com/MayankJha014/pulse-assesment.git
    ```
 
 2. **Install Dependencies**
