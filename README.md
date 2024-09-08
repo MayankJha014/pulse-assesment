@@ -27,12 +27,17 @@ This Node.js application scrapes product reviews from G2.com using Express, Chee
 
 2. **Install Dependencies**
 
-   Navigate to the `server` directory and install the required Node.js packages:
+   Navigate to the directory and install the required Node.js packages:
 
    ```bash
-   cd server
    npm install
    ```
+
+3. **Start Server**
+
+```bash
+ npm start
+```
 
 ## API Endpoint
 
